@@ -2,6 +2,7 @@ import { VStack } from "@gluestack-ui/themed";
 
 import { Header } from "../components/Header";
 import { Summary } from "../components/Summary";
+import { Listing } from "../components/Listing";
 
 export function Home() {
   return (
@@ -15,6 +16,9 @@ export function Home() {
       >
         <Header />
         <Summary />
+      </VStack>
+      <VStack flex={1}>
+        <Listing />
       </VStack>
     </VStack>
   );

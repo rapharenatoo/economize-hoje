@@ -19,7 +19,7 @@ export function Header() {
       alignItems='center'
     >
       <HStack flex={1}>
-        <Avatar bgColor='$amber600' size='md' borderRadius='$full'>
+        <Avatar size='md' borderRadius='$full'>
           <AvatarFallbackText>Raphael Renato</AvatarFallbackText>
           <AvatarImage
             source={{ uri: "https://www.github.com/rapharenatoo.png" }}
@@ -31,7 +31,7 @@ export function Header() {
           <Heading color='$textDark100'>Raphael Renato</Heading>
         </VStack>
       </HStack>
-      <ButtonIcon as={Power} color='$red400' size='lg' />
+      <ButtonIcon as={Power} color='$emerald500' size='lg' />
     </HStack>
   );
 }
