@@ -19,6 +19,7 @@ export function Title({ title }: TitleProps) {
         fontWeight='$normal'
         color='$white'
         textAlign='center'
+        mt='$6'
         pb='$2'
       >
         {title}

@@ -8,7 +8,7 @@ import {
 } from "@gluestack-ui/themed";
 import { FontAwesome } from "@expo/vector-icons";
 
-import { LoginButton } from "../components/LoginButton";
+import { ButtonLogin } from "../components/ButtonLogin";
 
 import AppIcon from "../assets/icon.png";
 
@@ -50,14 +50,14 @@ export function SignIn() {
           </Text>
 
           <VStack space='sm'>
-            <LoginButton
+            <ButtonLogin
               title='Entrar com Google'
               icon={
                 <FontAwesome name='google' size={24} color='#002851' />
               }
             />
             {Platform.OS === "ios" && (
-              <LoginButton
+              <ButtonLogin
                 title='Entrar com Apple'
                 icon={
                   <FontAwesome name='apple' size={24} color='#002851' />

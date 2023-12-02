@@ -5,7 +5,7 @@ type Props = {
   icon: React.ReactNode;
 };
 
-export function LoginButton({ title, icon }: Props) {
+export function ButtonLogin({ title, icon }: Props) {
   return (
     <Button
       size='md'
