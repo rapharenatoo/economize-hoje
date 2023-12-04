@@ -43,7 +43,11 @@ export function Select({ items }: SelectProps) {
             <SelectDragIndicator />
           </SelectDragIndicatorWrapper>
           {items.map((item) => (
-            <SelectItem label={item.label} value={item.value} />
+            <SelectItem
+              label={item.label}
+              value={item.value}
+              key={item.value}
+            />
           ))}
         </SelectContent>
       </SelectPortal>

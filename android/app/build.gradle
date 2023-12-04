@@ -111,6 +111,9 @@ android {
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
+        androidResources {
+            generateLocaleConfig true
+      }
     }
 }
 
